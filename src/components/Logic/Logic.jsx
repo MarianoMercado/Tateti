@@ -12,4 +12,5 @@ export const checkWinnerFrom = (boardToCheck) => {
       return boardToCheck[a];
     }
   }
+  return null;
 };

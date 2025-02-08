@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de TA - TE - TÍ (Tres en Raya) desarrollado utilizando React y Vite. El objetivo del proyecto es proporcionar una implementación interactiva del clásico juego de estrategia para dos jugadores.
 
-Currently, two official plugins are available:
+Características Principales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Componentes React**: La interfaz del juego está construida utilizando componentes funcionales de React.
+- **Estado Local**: Se utiliza el hook useState para manejar el estado del tablero (board) y el turno actual (turn).
+- **Interacción de Usuario**: Los jugadores pueden hacer clic en las casillas del tablero para alternar entre los turnos "X" y "O".
